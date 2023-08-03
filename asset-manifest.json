@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/frontend/static/css/main.cd3a8284.css",
-    "main.js": "/frontend/static/js/main.1427b30b.js",
+    "main.js": "/frontend/static/js/main.b37b788a.js",
     "static/js/787.cd5110fb.chunk.js": "/frontend/static/js/787.cd5110fb.chunk.js",
     "static/media/hamso_header.png": "/frontend/static/media/hamso_header.5316d4d6b4c9f9f2d84d.png",
     "index.html": "/frontend/index.html",
     "main.cd3a8284.css.map": "/frontend/static/css/main.cd3a8284.css.map",
-    "main.1427b30b.js.map": "/frontend/static/js/main.1427b30b.js.map",
+    "main.b37b788a.js.map": "/frontend/static/js/main.b37b788a.js.map",
     "787.cd5110fb.chunk.js.map": "/frontend/static/js/787.cd5110fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd3a8284.css",
-    "static/js/main.1427b30b.js"
+    "static/js/main.b37b788a.js"
   ]
 }
