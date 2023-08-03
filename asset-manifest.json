@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.821c062e.css",
-    "main.js": "/frontend/static/js/main.f9ab094b.js",
+    "main.css": "/frontend/static/css/main.801c3ecb.css",
+    "main.js": "/frontend/static/js/main.1b67487d.js",
     "static/js/787.cd5110fb.chunk.js": "/frontend/static/js/787.cd5110fb.chunk.js",
-    "static/media/pre_logo.svg": "/frontend/static/media/pre_logo.0977975f564749a93056.svg",
+    "static/media/hamso_header.png": "/frontend/static/media/hamso_header.5316d4d6b4c9f9f2d84d.png",
     "index.html": "/frontend/index.html",
-    "main.821c062e.css.map": "/frontend/static/css/main.821c062e.css.map",
-    "main.f9ab094b.js.map": "/frontend/static/js/main.f9ab094b.js.map",
+    "main.801c3ecb.css.map": "/frontend/static/css/main.801c3ecb.css.map",
+    "main.1b67487d.js.map": "/frontend/static/js/main.1b67487d.js.map",
     "787.cd5110fb.chunk.js.map": "/frontend/static/js/787.cd5110fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.821c062e.css",
-    "static/js/main.f9ab094b.js"
+    "static/css/main.801c3ecb.css",
+    "static/js/main.1b67487d.js"
   ]
 }
