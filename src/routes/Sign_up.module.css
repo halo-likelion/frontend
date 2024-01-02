@@ -1,0 +1,493 @@
+/* 요소 외부 폰트 모음 */
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@900&family=Noto+Serif+KR:wght@500&display=swap');
+@import url('https://webfontworld.github.io/DdangFonts/TangsBudaeJjigae.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+.sign_up {
+  color: var(--bc-1, #062C7F);
+  font-family: Pretendard;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+
+}
+
+.main {
+  margin-top: 56px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+
+.body1 {
+  width: 280px;
+  height: 384px;
+  flex-shrink: 0;
+  padding-top: 40px;
+  padding-left: 26px;
+  padding-right: 26px;
+  background: #ECECEC;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.check_text {
+  color: #333;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  /* 150% */
+}
+
+.warning {
+  width: 228px;
+
+  color: #333;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+}
+
+.sign_up_btn {
+  width: 120px;
+  height: 40px;
+  flex-shrink: 0;
+  background: var(--bc-2, #0A559F);
+  border: none;
+  cursor: pointer;
+
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+}
+
+.agree {
+
+  color: var(--bc-1, #062C7F);
+  font-family: Pretendard;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  /* 142.857% */
+}
+
+.agree1 {
+  width: 280px;
+  color: #333;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+.form1 {
+  margin-bottom: 48px;
+
+
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  appearance: none;
+  gap: 8px;
+}
+
+.form2 {
+  margin-bottom:36px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+  width: 280px;
+}
+
+.possible {
+  font-size: 12px;
+  font-weight: bold;
+  color: #062C7F;
+  margin-bottom: 10px;
+}
+
+.impossible {
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px;
+}
+
+
+
+.next_btn_o {
+  width: 280px;
+  height: 40px;
+  background: var(--bc-2, #0A559F);
+  cursor: pointer;
+  margin-bottom:64px;
+
+  color: rgba(255, 255, 255, 0.90);
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+
+  border: none;
+  /* 150% */
+}
+
+.next_btn_x {
+  width: 280px;
+  height: 40px;
+  background: #999;
+  cursor: pointer;
+  margin-bottom:64px;
+
+  color: rgba(255, 255, 255, 0.90);
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  /* 150% */
+
+  border: none;
+}
+
+.name_tag {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.success_box {
+  width: 280px;
+  height: 384px;
+  flex-shrink: 0;
+  background: #ECECEC;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.success_text {
+  color: #333;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  /* 150% */
+}
+
+.lets {
+  color: #000;
+  font-family: 'Tangsbudaejjigae';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  /* 120% */
+  color: black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.login_btn {
+  width: 240px;
+  height: 40px;
+  background: var(--bc-2, #0A559F);
+  cursor: pointer;
+
+  color: rgba(255, 255, 255, 0.90);
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+
+  border: none;
+  /* 150% */
+}
+
+
+/* agreement */
+.main_agreement {
+  margin-top: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.check {
+  display: none;
+}
+
+.allchecked {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  color: #333;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.checked {
+  color: #333;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.agree_div {
+  overflow: auto;
+
+  width: 280px;
+  height: 240px;
+  flex-shrink: 0;
+  background: #ECECEC;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  margin-top: 4px;
+
+  color: #333;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+
+}
+
+.agree_check {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 4px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+}
+
+
+/* Phone_code Phone_codePhone_codePhone_codePhone_codePhone_code*/
+.phonecode_box {
+  width: 320px;
+  height: 600px;
+  position: fixed;
+  z-index: 90;
+  left: 50%;
+  top: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* sign_up_inputs sign_up_inputs sign_up_inputs sign_up_inputs */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top:0px;
+}
+
+.caution{
+  margin-bottom:0px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.font0 {
+  color: var(--bc-1, #062C7F);
+  font-family: Pretendard;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  margin:20px;
+}
+
+.need {
+  color: #333;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin:0px;
+}
+
+.form_inputs {
+  margin-top:0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 36px;
+}
+
+.input_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap:4px;
+}
+
+.input_bluebar {
+  width: 280px;
+  height: 44px;
+  flex-shrink: 0;
+  background: var(--bc-2, #0A559F);
+
+  
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  text-align:center;
+}
+.input_withIcon {
+  width: 280px;
+  height: 44px;
+  flex-shrink: 0;
+  fill: #FFF;
+  border:1px solid #999;
+
+  color: black;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+
+  display:flex;
+  align-items: center;
+  padding:8px;
+}
+.input_tag_withIcon {
+  width: 232px;
+  height: 36px;
+  flex-shrink: 0;
+  fill: #FFF;
+  border:none;
+
+  color: black;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.icon{
+  width : 24px;
+  height:24ox;
+}
+
+
+.input_tag {
+  width: 280px;
+  height: 44px;
+  flex-shrink: 0;
+  fill: #FFF;
+  border:1px solid #999;
+
+  color: black;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  
+  padding:8px;
+}
+
+.input_tag_phone {
+  width: 80px;
+  height: 44px;
+  flex-shrink: 0;
+  fill: #FFF;
+  border:1px solid #999;
+
+  color: black;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.phone_line {
+  width:12px;
+  height:1px;
+  background: #999;
+  margin:4px;
+}
+
+.phone_Number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

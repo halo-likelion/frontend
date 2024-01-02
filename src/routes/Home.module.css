@@ -1,0 +1,399 @@
+/* 요소 외부 폰트 모음 */
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@900&family=Noto+Serif+KR:wght@500&display=swap");
+@import url('https://webfontworld.github.io/DdangFonts/TangsBudaeJjigae.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 48px;
+  background: var(--bc-4, #c5c4ae);
+  flex-direction: column;
+  align-items: center;
+}
+
+.font0 {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 500;
+  /* 133.333% */
+
+  margin-bottom: 0px;
+  padding-top: 0;
+}
+
+.lets {
+  color: #000;
+  font-family: 'Tangsbudaejjigae';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  /* 120% */
+  color: black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  background-color: #0a559f;
+  color: white;
+  font-size: 12px;
+}
+
+h4 {
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  /* 133.333% */
+}
+
+.apply_search {
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  background-color: #062c7f;
+  text-align: center;
+
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+/*grid-template-columns가 적용되지 않는 것은 내부 item들의 너비가 grid의 전체 너비를 초과하기 때문이라고 생각 */
+.forms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, auto)) repeat(auto-fit, minmax(220px, auto));
+  /* 반응형 열 크기 설정 */
+  grid-template-rows: minmax(148px, auto) minmax(148px, auto) minmax(112px, auto);
+  /* 행 크기 설정 */
+  max-height: 100vh;
+  /* 뷰포트 높이로 최대 높이 제한 설정 */
+
+  border-bottom: 0.5px solid #999;
+}
+
+/* grid 레이아웃이 제대로 적용되지 않은건 items의 내용들의 크기가 grid 틀의 크기를 벗어나서 그런게 아닐까 라는 생각 */
+.title {
+  /* 지역 */
+  color: #666;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+.required {
+  font-size: 8px;
+  color: red;
+  margin-top: 0;
+  margin-left: 8px;
+}
+
+.titles:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: grid;
+  place-content: center center;
+  height: 100%;
+  width: 100%;
+  border-bottom: 0.5px solid #999;
+}
+
+.titles:nth-child(3) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: grid;
+  place-content: center center;
+  height: 100%;
+  width: 100%;
+  border-bottom: 0.5px solid #999;
+}
+
+.titles:nth-child(5) {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  display: grid;
+  place-content: center center;
+  height: 100%;
+  width: 100%;
+  border-bottom: 0.5px solid #999;
+}
+
+.datas:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  height: 100%;
+  width: 100%;
+  border-left: 0.5px solid #999;
+  border-bottom: 0.5px solid #999;
+
+  display: grid;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 32px; /*수정함*/
+}
+
+.datas:nth-child(4) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  height: 100%;
+  width: 100%;
+  border-left: 0.5px solid #999;
+  border-bottom: 0.5px solid #999;
+
+  display: grid;
+  align-items: center;
+}
+
+.datas:nth-child(6) {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  height: 100%;
+  width: 100%;
+  border-left: 0.5px solid #999;
+  border-bottom: 0.5px solid #999;
+
+  display: grid;
+  align-items: center;
+}
+
+.input_tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 0;
+  /* 수정 원래 16px->0 / 이 아래로 전부 추가 */
+  width: 165px;
+  height: 28px;
+  flex-shrink: 0;
+  border: 0 solid #999;
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 8px;
+}
+
+#input_date {
+  width: 165px;
+  height: 28px;
+  flex-shrink: 0;
+  border: 0.5px solid #999;
+
+  margin-top: 0px;
+  margin-left: 8px;
+  margin-right: 14px;
+}
+
+.date {
+  display: flex;
+  color: #333;
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  /* 120% */
+
+  margin-left: 8px;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.input_required {
+  display: flex;
+  margin-bottom: 0;
+  justify-content: start;
+  /* 수정 원래 16px->0 / 이 아래로 전부 추가 */
+  width: 165px;
+  height: 28px;
+  flex-shrink: 0;
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.input_required:nth-child(1) {
+  margin-top: 16px;
+}
+
+.input_required:nth-child(2) {
+  margin-top: 16px; /*수정함*/
+}
+
+.label_ps {
+  /* 스타일 추가 */
+  width: 280px;
+  height: 40px;
+  flex-shrink: 0;
+  background: var(--bc-3, #4094c9);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 140% */
+  margin-bottom: 0;
+}
+
+.title:nth-child(1) {
+  margin-bottom: 0;
+}
+
+.title:nth-child(2) {
+  margin-bottom: 0;
+}
+
+/*main push용*/
+
+.readingGlass {
+  border: 0.5px solid #999;
+  height: 28px;
+  border-left: none;
+}
+
+.possible {
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.impossible {
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.limit_box {
+  position: absolute;
+  width: 280px;
+  height: 592px;
+  background: rgba(153, 153, 153, 0.6);
+
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 140% */
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_btn {
+  width: 240px;
+  height: 40px;
+  background: var(--bc-2, #0A559F);
+  cursor: pointer;
+
+  color: rgba(255, 255, 255, 0.90);
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+
+  border: none;
+  opacity: 1;
+  /* 150% */
+}
+
+.nav_btn {
+  width: 52px;
+  height: 16px;
+  flex-shrink: 0;
+  border: 0.5px solid #999;
+  background: #FFF;
+  margin: 2px;
+
+  cursor: pointer;
+
+  color: #333;
+  font-family: Pretendard;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10px;
+  /* 111.111% */
+}
+
+.date1,
+.date2 {
+  color: #333;
+  font-family: Pretendard;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.75rem;
+  /* 120% */
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+#input {
+  display: flex;
+  margin-bottom: 0;
+  /* 수정 원래 16px->0 / 이 아래로 전부 추가 */
+  width: 165px;
+  height: 28px;
+  flex-shrink: 0;
+  border: 0.5px solid #999;
+
+  margin-top: 0;
+  margin-bottom: 16px;
+  margin-left: 8px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date_up {
+  display: flex;
+  justify-content: between;
+  align-items: center;
+}

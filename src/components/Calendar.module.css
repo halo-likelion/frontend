@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@900&family=Noto+Serif+KR:wght@500&display=swap");
+@import url('https://webfontworld.github.io/DdangFonts/TangsBudaeJjigae.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+
+.grid {
+    background-color:rgb(238, 216, 188);
+    border:1px solid gray;
+
+    color: #333;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.possible {
+    color: yellowgreen;
+    border:0.5px solid gray;
+    cursor:pointer;
+
+    color: #333;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+    padding: 8px;
+}
+
+.impossible {
+    color: rgb(236, 139, 139);
+    border:0.5px solid gray;
+
+    color: #333;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+    padding: 8px;
+}
+
+.day{
+    background-color:rgb(235, 235, 162);
+    border:0.5px solid gray;
+
+    color: #333;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    /* 133.333% */
+    padding: 8px;
+}
+
+.selected {
+    background-color: green;
+    border:0.5px solid gray;
+    cursor:pointer;
+
+    color: white;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 16px;
+    /* 133.333% */
+    padding: 8px;
+}

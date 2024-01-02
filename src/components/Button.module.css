@@ -1,0 +1,132 @@
+.img_buttonX {
+    cursor:pointer;
+    padding: 6px;
+    background: url("../img/X.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;
+    text-align: right;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.postCloseBtn {
+    cursor:pointer;
+    position: absolute;
+    top: 92.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid skyblue;
+    background: var(--bc-3, #0A559F);
+
+
+    color: white;
+    font-weight: bold;
+}
+
+.select {
+    /* 추가 */
+    cursor:pointer;
+    width: 40px;
+    height: 28px;
+    background: #666;
+    line-height: 16px;
+    /* 133.333% */
+    text-align: center;
+    font-family: Pretendard;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+}
+
+.search {
+    cursor:pointer;
+    width: 280px;
+    height: 32px;
+    flex-shrink: 0;
+    background: var(--bc-3, #4094C9);
+    margin-top: 16px;
+    border: none;
+
+
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}
+
+.reset {
+    cursor:pointer;
+    width: 280px;
+    height: 28px;
+    flex-shrink: 0;
+    background: #999;
+    margin-top: 4px;
+    border: none;
+
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.zip_search {
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #666;
+    border:none;
+
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+  }
+.list_num{
+    cursor:pointer;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+}
+.list_num_selected{
+    cursor:pointer;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+}
+
+.phone_again {
+    cursor:pointer;
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #666;
+    border:none;
+    
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+  }
